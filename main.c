@@ -13,8 +13,12 @@ typedef struct Comptes
 int main ()
 {
   Comptes Compte[11];
-  scan("%d",Compte.ID[i]);
-  printf(" Les Comptes ID : %d Libelle : %c /n ", Compte.ID,Compte.Libelle);
+  for(int i=1;i<32;i++)
+    {
+     scan("%d",Compte.ID[i]);
+     scan("%d",Compte.Libelle[i]);
+     printf(" Les Comptes ID : %d Libelle : %c /n ", Compte.ID,Compte.Libelle);
+    }
   
   
 }
