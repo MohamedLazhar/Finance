@@ -3,6 +3,8 @@
 // STRUCTURE DES DONNEES
 // Le Compte 
 
+inline int AddPixel(int x, int y)
+
 typedef struct Comptes
 {
   int ID;
