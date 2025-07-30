@@ -21,8 +21,13 @@ int main ()
      scan("%d",Compte.Libelle[i]);
      printf(" Les Comptes ID : %d Libelle : %c /n ", Compte.ID,Compte.Libelle);
     }
-  
-  
-}
+ }
+  inline int AddPixel(int x, int y)
+  {
+      return x+y;
+
+    
+   
+  }
 
 
