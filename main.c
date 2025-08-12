@@ -4,6 +4,12 @@
 // Le Compte 
 
 inline int AddPixel(int x, int y)
+  {
+      return x+y;
+
+    
+   
+  }
 
 typedef struct Comptes
 {
@@ -22,6 +28,7 @@ int main ()
      printf(" Les Comptes ID : %d Libelle : %c /n ", Compte.ID,Compte.Libelle);
     }
  }
+
   inline int AddPixel(int x, int y)
   {
       return x+y;
