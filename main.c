@@ -3,7 +3,7 @@
 // STRUCTURE DES DONNEES
 // Le Compte 
 
-inline int AddPixel(int x, int y)
+inline int AddPixel(int x, int y)  // AddPixel result of  add two value pixel 
   {
       return x+y;
 
